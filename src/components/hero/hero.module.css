@@ -1,6 +1,6 @@
 .heroDiv{
     margin: 0%;
-    display: flex;  
+        display: flex;  
     padding: 8% 0% 10% 0%;
     justify-content: space-between;
 }
@@ -20,13 +20,70 @@
 }
 .profileImg{
     border-radius: 50%;
+    width: 40%;
 }
-.dataDiv button{
-   width: 20%;
+.buttonM{display: none;}
+.button{
+   width: 25%;
   height: 12%;
-  border-radius: 5%;
+  display: flex;justify-content: center;
+  align-items: center;
+
+  border-radius: 2.5vw;
   font-size: 1.5vw;
   background-color: #F5EE84;
   margin-block-start: 5%;
   border: 1.25px solid #03045E;
+  text-decoration: none;
+  color: #03045E;
+}
+
+.button:hover{
+    font-size: 1.7vw;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+ }
+@media (width<=464px){
+    .heroDiv{
+        width: 100%;
+flex-direction: column;  
+align-items: center;
+    gap: 6vw;
+ }
+ .button{
+    display: none;
+ }
+ .buttonM{
+    display: flex;
+ margin: 4% 0%;
+   font-size: 4vw;
+    height: 10vw;justify-content: center;
+  align-items: center;text-decoration: none;
+  color: #03045E;
+    width: 45%;
+    color: #03045E;
+    background-color: #F5EE84;
+    border-radius: 2.5vw;
+  border: 1.25px solid #03045E;
+ }
+ 
+ .buttonM:hover{
+    font-size: 4.25vw;    cursor: pointer;
+
+    transition: all .4s ease-in-out;
+ }
+ .dataDiv{
+    text-align: center;
+ }
+ .dataDiv h1{
+   font-size: 13vw;
+ }
+ .dataDiv h3{
+   font-size: 4vw;
+ }
+ .profileImg{
+    border-radius: 50%;
+    width: 70%;
+}
+ 
 }

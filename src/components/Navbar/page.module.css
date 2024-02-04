@@ -13,28 +13,56 @@
 .NavBar ul{
         list-style: none;
 }
+/* .NavBar li:hover{
+    
+} */
 .MainLogo{
   padding: 3% 2% 3% 0%;
 }
 .NavItems{
     width: 20%;
-    padding: 2% 2% 3% 2%;
+    padding: 4% 2% 3% 2%;
     display: inline-flex;
     justify-content: space-between;
 }
 
 .NavSocials{
+    font-size: 1.5vw;
     width: 8%;
-    padding: 2% 0% 3% 0%;
+    padding: 4% 0% 3% 0%;
     display: inline-flex;
     justify-content: space-between;
 }
-
-@media (min-width:464px){
-    .HamBurger{
+.Ham{display: none;}
+@media (width<=464px){
+    .Circle{
+        margin: 50% 0%;
+        width: 6vw;
+        height: 6vw;
+        background-color: black;
+        border-radius: 50%;
+    }
+    .Circle:hover{
+        cursor: pointer;
+        transform: translateX(-1vw);
+        transition:transform 0.4s ease-in-out;
+    }
+    .Ham{
+       display: flex;
+    }
+    .NavItems{display: none;}
+    .NavSocials{display: none;}
+    .NavItemsM{
+        position: absolute;
+        top: 10vw;
+        right: 0;
+        width: 30%;
+        font-size: 5vw;
         display: flex;
         flex-direction: column;
         background-color: #F5EE84;
+        align-items: center;
+    padding: 3vw 0;
+    gap: 1vw;
     }
-    
 }

@@ -9,7 +9,7 @@ const inter = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "John Doe",
+  title: "Abhinav P. Singh",
   description: "A Personal Portfolio Website",
 };
 

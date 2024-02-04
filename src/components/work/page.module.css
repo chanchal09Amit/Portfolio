@@ -2,8 +2,11 @@
 display: flex;
 flex-direction: column;
 }
-.workDiv Image{
-    width: 100%;
+.work1{
+    width: 10%;
+}
+.work2{
+    width: 10%;
 }
 .workDiv h1{
     font-size: 6vw;
@@ -32,3 +35,33 @@ font-weight: 800;
     width: 100%;
     margin: 0% 0% 6%;
 }
+@media (width<=464px)
+    {
+    .workDiv{
+        font-size: 4vw;
+    }
+    .workDiv h1{
+        font-size: 13vw;
+        padding-bottom: 5vw;
+    }
+    .workData h6{
+        font-size: 2.75vw;
+        padding-bottom: 2.25vw;
+    }
+    .workData h3{
+     font-size: 5vw;
+  margin:0%;
+    }
+    .workData ul{
+        font-size: 5vw;
+    }
+    .workData{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+.workData div{width: 100%; margin: 5vw 0;}
+        .workDiv p{
+            width: 100%;
+        }
+    }
