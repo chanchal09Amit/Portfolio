@@ -1,0 +1,34 @@
+.workDiv{
+display: flex;
+flex-direction: column;
+}
+.workDiv Image{
+    width: 100%;
+}
+.workDiv h1{
+    font-size: 6vw;
+color: #F7F197;
+}
+.workDiv p{
+    width: 62.5%;
+    margin: 2% 0% 6%;
+}
+.workData{ 
+    display:inline-flex;
+    justify-content: space-between;
+}
+.workData div{  
+    width: 42.25%;
+}
+.workData h6{
+font-size: .8vw;
+}
+.workData h3{
+font-size: 1.5vw;
+margin: 2% 0% 0%;
+font-weight: 800;
+}
+.workData p{
+    width: 100%;
+    margin: 0% 0% 6%;
+}

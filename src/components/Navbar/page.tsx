@@ -5,41 +5,45 @@ import Link from 'next/link';
 const Navbar = () => {
   return (
     <div className={styles.NavBar}>
-      <h1 className={styles.MainLogo}>
-        <Link href="#home">John Doe</Link>
-      </h1>
-      <div className={styles.Paths}>
-        <ul className={styles.NavItems}>
-          <li>
-            <Link href="#home">Home</Link>
-          </li>
-          <li>
-            <Link href="#about">About</Link>
-          </li>
-          <li>
-            <Link href="#work">Work</Link>
-          </li>
-        </ul>
-        <ul className={styles.NavSocials}>
-          <li>
-            <Link href="/">
-              <i></i>
-            </Link>
-          </li>
-          <li>
-            <Link href="/">
-              
-              <i></i>
-            </Link>
-          </li>
-          <li>
-            <Link href="/">
-             
-              <i></i>
-            </Link>
-          </li>
-        </ul>
-      </div>
+      <h2 className={styles.MainLogo}>
+        <Link href="#home" style={{ color: "#03045E" }}>
+          John Doe
+        </Link>
+      </h2>
+      <ul className={styles.NavItems}>
+        <li>
+          <Link href="#home" style={{ color: "#03045E" }}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link href="#about" style={{ color: "#03045E" }}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link href="#work" style={{ color: "#03045E" }}>
+            Work
+          </Link>
+        </li>
+      </ul>
+      <ul className={styles.NavSocials}>
+        <li>
+          <Link href="/" style={{ color: "#03045E" }}>
+            <i className="bx bxl-twitter"></i>
+          </Link>
+        </li>
+        <li>
+          <Link href="/" style={{ color: "#03045E" }}>
+            <i className="bx bxl-linkedin-square"></i>
+          </Link>
+        </li>
+        <li>
+          <Link href="/" style={{ color: "#03045E" }}>
+            <i className="bx bxl-instagram"></i>
+          </Link>
+        </li>
+      </ul>
     </div>
   );
 }

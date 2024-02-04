@@ -1,0 +1,40 @@
+.NavBar{
+    margin: 0; 
+    text-decoration: none;
+    list-style: none;
+    padding-inline: 7%;
+    display: flex;
+    background-color: #FBF8CC;
+    justify-content: space-between;  
+}
+.NavBar a{
+        text-decoration: none;
+}
+.NavBar ul{
+        list-style: none;
+}
+.MainLogo{
+  padding: 3% 2% 3% 0%;
+}
+.NavItems{
+    width: 20%;
+    padding: 2% 2% 3% 2%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.NavSocials{
+    width: 8%;
+    padding: 2% 0% 3% 0%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+@media (min-width:464px){
+    .HamBurger{
+        display: flex;
+        flex-direction: column;
+        background-color: #F5EE84;
+    }
+    
+}

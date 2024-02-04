@@ -1,0 +1,20 @@
+ .main{
+    padding: 7% 0%;
+    }
+.main h1{
+font-size: 6vw;
+ padding-bottom: 2%;
+}
+.contactDiv{
+display: flex;
+gap: 5%;
+}
+.contactData{
+    display: flex;
+    font-size: 2vw;
+    width: 50%;
+    flex-direction: column;
+}
+.p1{
+    padding-bottom: 5%;
+}
