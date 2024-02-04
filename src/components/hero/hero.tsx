@@ -3,7 +3,7 @@ import React from 'react'
 import styles from "./hero.module.css";
 import profileImg from "../../../public/images/ProfileImg.jpg"
 import Image from 'next/image';
-import resume from "../../../public/resume/ABHINAV_WEB_RESUME.pdf";
+import resume from '../../../public/resume/a.pdf';
 const Hero = () => {
    return (
      <div className={styles.heroDiv}>

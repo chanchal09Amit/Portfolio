@@ -22,19 +22,16 @@ const Contact = () => {
             me at following and let the coding adventure begin!
           </p>
           <a
-            style={{ color: "#EB0325" }}
             href="mailto:harshitsinghtil@mail.com"
           >
             E-Mail
           </a>
           <a
-            style={{ color: "#EB0325" }}
             href="https://twitter.com/Abhinav28223365"
           >
             Twitter
           </a>
           <a
-            style={{ color: "#EB0325" }}
             href="https://www.linkedin.com/in/abhinav-pratap-singh-1a8a57200/"
           >
             Linkedin
