@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className={styles.NavBar}>
       <h2 className={styles.MainLogo}>
         <Link href="#home" style={{ color: "#03045E" }}>
-          Abhinav Pratap Singh
+          Amit Kumar Chanchal
         </Link>
       </h2>
       <HamMenu />
@@ -47,7 +47,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            href="https://www.linkedin.com/in/abhinav-pratap-singh-1a8a57200/"
+            href="https://www.linkedin.com/in/amit-kumar-chanchal-002aa3228/"
             style={{ color: "#03045E" }}
           >
             <i className="bx bxl-linkedin-square"></i>
